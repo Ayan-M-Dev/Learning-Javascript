@@ -1,3 +1,4 @@
+const prompt=require("prompt-sync")({sigint:true});
 //console.log('hello world')
 //console.log("Ayan Masood")
 
@@ -13,7 +14,7 @@ sentence = 'How are you doing today, nice to see you'
 //fruit = prompt('What is your fav fruit?')
 
 //console.log(fruit)
-
+  
 food = Number(prompt('Cost of the food')) 
 tipPercentage = Number(prompt('percentage to tip')) / 100
 tipAmount = food * tipPercentage
@@ -24,4 +25,3 @@ console.log('total:', total)
 
 
 
-// User 
