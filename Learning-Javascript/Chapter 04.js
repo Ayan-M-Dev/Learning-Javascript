@@ -15,4 +15,6 @@ groceries.push('Watermelon')
 // console.log(groceries.slice(1,4))
 
 //Array Methods (slice, push, indexOf, length)
-console.log(groceries.indexOf('Orange'))
+// console.log(groceries.indexOf('Orange'))
+
+console.log(groceries.length)
