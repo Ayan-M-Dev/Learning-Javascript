@@ -6,6 +6,10 @@ const fruits = ['Banana' , 'Apple' , 'Orange' , 'Pear','Banana' , 'Apple' , 'Ora
 
 //For loop
 
-for (let i=0; i < fruits.length; i++){
-    console.log(i, fruits[i])
+// for (let i=0; i < fruits.length; i++){
+//     console.log(i, fruits[i])
+// }
+
+for (const fruit of fruits) {
+    console.log(fruit)
 }
