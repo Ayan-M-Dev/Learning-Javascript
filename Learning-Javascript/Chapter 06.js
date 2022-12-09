@@ -10,6 +10,17 @@ const fruits = ['Banana' , 'Apple' , 'Orange' , 'Pear','Banana' , 'Apple' , 'Ora
 //     console.log(i, fruits[i])
 // }
 
-for (const fruit of fruits) {
-    console.log(fruit)
+// for (const fruit of fruits) {
+//     console.log(fruit)
+// }
+
+const numbers = [1, 2, 3, 4, 5, 6]
+
+//Sum up all numbers in array
+for (let i=0; i< numbers.length; i++) {
+    console.log(numbers[i])
+}
+
+// for (const sum of numbers) {
+//     console.log(sum)
 }
