@@ -14,7 +14,7 @@ const fruits = ['Banana' , 'Apple' , 'Orange' , 'Pear','Banana' , 'Apple' , 'Ora
 //     console.log(fruit)
 // }
 
-// const numbers = [1, 2, 3, 4, 5, 6]
+const numbers = [1, 2, 3, 4, 5, 6]
 
 //Sum up all numbers in array
 // for (let i=0; i< numbers.length; i++) {
@@ -25,7 +25,7 @@ const fruits = ['Banana' , 'Apple' , 'Orange' , 'Pear','Banana' , 'Apple' , 'Ora
 //      console.log(sum * 2)
 // }
 
-// const numbers = [1, 2, 3, 4, 5, 6]
+
 // let result = []
 
 // for (const number of numbers) {
@@ -43,4 +43,4 @@ const double = (numbers) => {
     return result
 }
 
-console.log(double([1,2,3,4,5,6]))
+console.log(double(numbers))
