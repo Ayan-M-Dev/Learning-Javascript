@@ -1,9 +1,30 @@
-const howManyLetters = ( ) => {
-    const phrase = 'Hey, can you go the grocery shop with me?'
+// const howManyLetters = ( ) => {
+//     const phrase = 'Hey, can you go the grocery shop with me?'
 
-    for (letter in phrase) {
-        console.log(letter)
+//     let result = 0;
+//     //for of
+//     for (const index in phrase) {
+//         console.log(Number(index) + 1)
+//         result = Number(index) + 1
+//     }
+
+//     return {result}
+// }
+
+// console.log(howManyLetters())
+
+//Prompting the user to give the input and then counting the letters
+const howManyLetters = (phrase) => {
+
+    let result = 0;
+    //for of
+    for (const index in phrase) {
+        console.log(Number(index) + 1)
+        result = Number(index) + 1
     }
-}
 
-howManyLetters()
+    return {result}
+}
+const phrase = prompt("Write your phrase")
+
+console.log(howManyLetters(phrase))
