@@ -53,18 +53,18 @@
 // const max = (numbers) 
 
 //REUTRN THE HIGHEST VALUE IN THE GIVEN ARRAY
-const max = (numbers) => {
-    let result = numbers[0]
-    //for loop
-    for (const number of numbers){
-        //If loop
-        if (number > result) {
-            result = number
-        }
-    }
-    return { result }
-}
+// const max = (numbers) => {
+//     let result = numbers[0]
+//     //for loop
+//     for (const number of numbers){
+//         //If loop
+//         if (number > result) {
+//             result = number
+//         }
+//     }
+//     return { result }
+// }
 
-arr = [10, 30, 40, 90, 59, 49]
-console.log(max(arr))
+// arr = [10, 30, 40, 90, 59, 49]
+// console.log(max(arr))
 
