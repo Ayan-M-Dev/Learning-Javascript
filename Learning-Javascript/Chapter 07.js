@@ -30,9 +30,21 @@
 // console.log(howManyLetters(phrase))
 
 //Prompting the user to give the input and then counting the letters but wihtout the for loop
-const howManyLetters = (phrase) => {
-    return  {result: phrase.length}
-}
-const phrase = prompt("Write your phrase")
+// const howManyLetters = (phrase) => {
+//     return  {result: phrase.length}
+// }
+// const phrase = prompt("Write your phrase")
 
-console.log(howManyLetters(phrase))
+// console.log(howManyLetters(phrase))
+
+const sumArray = (numbers) => {
+    let result = 0;
+    //for loop
+    for(const number of numbers ) {
+        console.log(number)
+        result = result + number
+    }
+    return { result }
+}
+const nums = [1, 2, 3, 4]
+console.log(sumArray(nums))
