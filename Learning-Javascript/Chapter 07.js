@@ -37,14 +37,34 @@
 
 // console.log(howManyLetters(phrase))
 
-const sumArray = (numbers) => {
-    let result = 0;
+//SUM ALL THE NUMBERS IN THE ARRAY
+// const sumArray = (numbers) => {
+//     let result = 0;
+//     for(const number of numbers) {
+//         console.log(number)
+//         result = result + number
+//     }
+//     return { result }
+// }
+
+// const num = [1, 2, 3, 4, 5]
+// console.log(sumArray(num))
+
+// const max = (numbers) 
+
+//REUTRN THE HIGHEST VALUE IN THE GIVEN ARRAY
+const max = (numbers) => {
+    let result = numbers[0]
     //for loop
-    for(const number of numbers ) {
-        console.log(number)
-        result = result + number
+    for (const number of numbers){
+        //If loop
+        if (number > result) {
+            result = number
+        }
     }
     return { result }
 }
-const nums = [1, 2, 3, 4]
-console.log(sumArray(nums))
+
+arr = [10, 30, 40, 90, 59, 49]
+console.log(max(arr))
+
