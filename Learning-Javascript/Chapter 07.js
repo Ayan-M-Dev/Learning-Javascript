@@ -88,4 +88,4 @@ const letterFrequency = (phrase) => {
     return frequency 
 } 
 
-console.log(letterFrequency('haha'))
+console.log(letterFrequency('you are a loser'))
