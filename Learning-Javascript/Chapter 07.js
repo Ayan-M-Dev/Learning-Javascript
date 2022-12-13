@@ -68,3 +68,10 @@
 // arr = [10, 30, 40, 90, 59, 49]
 // console.log(max(arr))
 
+
+const letterFrequency = (phrase) => {
+    //letterFrequency('haha') {'h':2, 'a':2}
+    console.log(phrase)
+} 
+
+console.log(letterFrequency('haha'))
