@@ -72,6 +72,12 @@
 const letterFrequency = (phrase) => {
     //letterFrequency('haha') {'h':2, 'a':2}
     console.log(phrase)
+    //make a frequency object {}
+    for (const letter of phrase) {
+        //chekc if letter exists in frequency
+            //if incermeent the value by +1
+            //otherwise, set the value to 1 
+    }
 } 
 
 console.log(letterFrequency('haha'))
