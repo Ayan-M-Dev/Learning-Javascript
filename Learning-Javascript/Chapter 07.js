@@ -91,22 +91,28 @@ const letterFrequency = (phrase) => {
 //console.log(letterFrequency('you are a loser'))
 
 //WORDFREQUENCY('lol what lol) => ['lol','what','lol']
-const wordFrequency = (phrase) => {
-    let frequency = {}
-    words = phrase.split(' ')
-    for (const word of words ) {
-        console.log(word)
-        if (word in frequency){
-            frequency[word]++
-        } else {
-            frequency[word] =1
-        }
-    }
-    console.log(words)
+// const wordFrequency = (phrase) => {
+//     let frequency = {}
+//     words = phrase.split(' ')
+//     for (const word of words ) {
+//         console.log(word)
+//         if (word in frequency){
+//             frequency[word] +=1
+//         } else {
+//             frequency[word] =1
+//         }
+//     }
+//     console.log(words)
 
-    return frequency
-}
+//     return frequency
+// }
 
-console.log(wordFrequency('lol what lol'))
+//console.log(wordFrequency('lol what lol'))
 //Incremental Operators
 // ++, --, +=
+
+const wordFrequency = (phrase) => {
+    const words = phrase.split(' ')
+    return letterFrequency(words)
+}
+console.log(wordFrequency('lol what lol'))

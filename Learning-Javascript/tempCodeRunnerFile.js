@@ -1,13 +1,17 @@
+const wordFrequency = (phrase) => {
+//     let frequency = {}
+//     words = phrase.split(' ')
+//     for (const word of words ) {
+//         console.log(word)
+//         if (word in frequency){
+//             frequency[word] +=1
+//         } else {
+//             frequency[word] =1
+//         }
+//     }
+//     console.log(words)
 
-    let result = 0;
-    //for of
-    for (const index in phrase) {
-        console.log(Number(index) + 1)
-        result = Number(index) + 1
-    }
+//     return frequency
+// }
 
-    return {result}
-}
-const phrase = prompt("Write your phrase")
-
-console.log(howManyLetters(phrase))
+// //console.log(wordFrequency('lol what lol'))
