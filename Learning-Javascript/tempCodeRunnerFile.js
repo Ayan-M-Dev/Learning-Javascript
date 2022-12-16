@@ -1,17 +1,5 @@
-const wordFrequency = (phrase) => {
-//     let frequency = {}
-//     words = phrase.split(' ')
-//     for (const word of words ) {
-//         console.log(word)
-//         if (word in frequency){
-//             frequency[word] +=1
-//         } else {
-//             frequency[word] =1
-//         }
-//     }
-//     console.log(words)
-
-//     return frequency
+const filter = (numbers, greaterThan) => {
+//     return filter.map(numbers => number >= 3)
 // }
 
-// //console.log(wordFrequency('lol what lol'))
+// console.log(filter([2, 6, 8, 5, 3, 2, 1,]))
