@@ -47,6 +47,16 @@ console.log(filter([1, 2, 3, 4, 5, 6, 7], 3 ))
 const nums = [1, 2, 3, 4, 5, 6,]
 console.log(nums.filter(num => num >= 3 || num < 2 ))
 
+const actors = [
+    {name: 'johnny', netWorth: 200000},
+    {name: 'amber', netWorth: 10},
+    {name: 'leonardo', netWorth: 1000000}
+]
+
+console.log(nums.filter(num => 4 || num < 2))
+console.log(actors.filter(actor => actor.netWorth > 10))
+
+
 //if (usersIsAuthenticated || userIsPayingMember) {
     //show youtube videos
 // } else {
