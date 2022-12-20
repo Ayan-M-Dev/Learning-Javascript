@@ -53,8 +53,8 @@ const actors = [
     {name: 'leonardo', netWorth: 1000000}
 ]
 
-console.log(nums.filter(num => 4 || num < 2))
-console.log(actors.filter(actor => actor.netWorth > 10))
+//console.log(nums.filter(num => 4 || num < 2))
+let result = actors.filter(actor => actor.netWorth > 10)
 
 
 //if (usersIsAuthenticated || userIsPayingMember) {
@@ -62,3 +62,5 @@ console.log(actors.filter(actor => actor.netWorth > 10))
 // } else {
 //   
 //}
+
+chapter08.innerHTML = '<h1>${result[0].name}</h1>'
