@@ -31,36 +31,24 @@
 
 // console.log(filter([2, 6, 8, 5, 3, 2, 1,]))
 
-const filter = (numbers, greaterThan) => {
-    let result = []
-    for (const number of numbers) {
-        if (number > greaterThan) {
-            result.push(number)
-        }
-    }
-    return result
-}
 
-console.log(filter([1, 2, 3, 4, 5, 6, 7], 3 ))
+//REDUCE
 
-//FILTER METHOD
-const nums = [1, 2, 3, 4, 5, 6,]
-console.log(nums.filter(num => num >= 3 || num < 2 ))
+//Sum all of the net worths
+//SUM: Think reduce
+//Reduce take in a function as an argument
 
-const actors = [
-    {name: 'johnny', netWorth: 200000},
-    {name: 'amber', netWorth: 10},
-    {name: 'leonardo', netWorth: 1000000}
-]
+const nums = [1, 2, 3]
+const result = nums.reduce(function(prev, curr) {
+    return prev + curr
+})
 
-//console.log(nums.filter(num => 4 || num < 2))
-let result = actors.filter(actor => actor.netWorth > 10)
+console.log(result)
 
 
-//if (usersIsAuthenticated || userIsPayingMember) {
-    //show youtube videos
-// } else {
-//   
-//}
+// OR (ES6 VER)
+// const nums = [1, 2, 3]
+// const result = nums.reduce(function(prev, curr) => prev + curr)
 
-chapter08.innerHTML = '<h1>${result[0].name}</h1>'
+
+// console.log(result)
