@@ -19,13 +19,16 @@ These are all the DIV ID's you're gonna need access to 👇
 
 // Get global access to all inputs / divs here (you'll need them later 😘)
 // bill input, tip input, number of people div, and per person total div
-
+const billTotalInput = document.getElementById('billTotalInput')
+const tipInput = document.getElementById('tipInput')
+const numberOfPeople = document.getElementById('numberOfPeople')
+const perPersonTotal = document.getElementById('perPersonTotal')
 
 // Get number of people from number of people div
 
 
 // ** Calculate the total bill per person **
-
+const calculateBill = () => {
   // get bill from user input & convert it into a number
 
 
@@ -42,14 +45,24 @@ These are all the DIV ID's you're gonna need access to 👇
 
 
   // update the perPersonTotal on DOM & show it to user
-
+}
 
 
 // ** Splits the bill between more people **
+const increasePeople = () => {
+  //
+
+
+  //
+
+
+  //
+
+}
 
 
 // ** Splits the bill between fewer people **
-
+const decreasePeople = () => {
   
   // decrement the amount of people
 
@@ -58,4 +71,4 @@ These are all the DIV ID's you're gonna need access to 👇
 
 
   // calculate the bill based on the new number of people
-
+}
