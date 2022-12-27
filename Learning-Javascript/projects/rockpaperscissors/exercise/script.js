@@ -17,8 +17,8 @@ const totalScore = {computerScore: 0, playerScore: 0}
 // getComputerChoice() 👉 'Scissors'
 function getComputerChoice() {
   const compChoice = ['Rock' , 'Paper' , 'Scissors']
-  const rndmChoice = Math.floor(Math.random() * 3)
-  return compChoice[rndmChoice]
+  const rndmChoice = compChoices[Math.floor(Math.random() * 3)]
+  return compChoice
 }
 
 // ** getResult compares playerChoice & computerChoice and returns the score accordingly **
@@ -107,12 +107,22 @@ function playGame() {
  
 
   // Add a click listener to the end game button that runs the endGame() function on click
-  
+  const endGameButton = document.getElementById('endGameButton')
+  endGameButton.onclick = () => endGame()
 }
 
 // ** endGame function clears all the text on the DOM **
-function endGame() {
-  
+function endGame(totalScore) {
+  totalScore['playerScore'] = 0
+  totalScore['computerScore'] = 0
+
+  const resultDiv = document.getElementById('result')
+  const handsDiv = document.getElementById('hands')
+  const playerScoreDiv = document.getElementById('player-score')
+
+  resultDiv.innerText = ''
+  handsDiv.innerText = ''
+  playerScoreDiv.innerText = ''
 }
 
 playGame()
